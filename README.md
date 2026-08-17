@@ -6,7 +6,10 @@ A robust, self-contained migration suite to import large media archives (**Googl
 
 ## ⚡ TL;DR — 2-Step Quick Start (Zero Setup)
 
-1. **Download the standalone binary**: [`photos-icloud-migrator`](https://github.com/junoonx/Photos-to-iCloud/blob/main/dist/photos-icloud-migrator)
+1. **Download the standalone binary**:
+   ```bash
+   curl -L -o photos-icloud-migrator https://github.com/junoonx/Photos-to-iCloud/raw/main/dist/photos-icloud-migrator
+   ```
 2. **Execute in Terminal**:
    ```bash
    chmod +x ./photos-icloud-migrator && ./photos-icloud-migrator -i
