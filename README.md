@@ -4,8 +4,18 @@ A robust, self-contained migration suite to import large media archives (**Googl
 
 ---
 
-## ⚡ TL;DR — What This Tool Does
+## ⚡ TL;DR — 2-Step Quick Start (Zero Setup)
 
+1. **Download the standalone binary**: [`photos-icloud-migrator`](https://github.com/junoonx/Photos-to-iCloud/blob/main/dist/photos-icloud-migrator)
+2. **Execute in Terminal**:
+   ```bash
+   chmod +x ./photos-icloud-migrator && ./photos-icloud-migrator -i
+   ```
+   *(Launches native macOS Finder folder/library pickers with all tools and engines bundled — zero Python or setup required).*
+
+---
+
+### What This Tool Does:
 1. **Fixes Media's Metadata (Dates, Locations, Camera)**: Enriches and repairs EXIF metadata using Google JSON sidecars and folder structures so all media appears in proper chronological order with complete GPS and device info.
 2. **Creates Real Live Photos**: Fuses independent `.JPG` still photos and matching `.MP4`/`.MOV` motion clips into native Apple Live Photos (avoiding split files or single `.HEIC` limitations).
 3. **Skips Duplicates Automatically**: Checks your Apple Photos library first and skips files you already imported, with zero popup prompts.
